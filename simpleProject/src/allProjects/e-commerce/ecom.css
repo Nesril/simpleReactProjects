@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+.header1{
+padding: 10px 29px 10px 15px;
+background-color: rgb(99, 94, 89);
+color: goldenrod;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+position: fixed;
+top: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+z-index: 19;
+}
+.head_button{
+padding-right: 85px;
+}
+#ele{
+    color: rgb(4, 4, 241);
+}
+#button{
+    font-size: 10px;
+    background-color: green;
+    color: white;
+}
+.header2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    box-shadow: 2px 0px 3px black;
+    font-size: 13px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+
+}
+#second_head{
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: -10px;
+    font-size: 13px;
+  width: 60% ;
+}
+#find{
+    font-size: 13px;
+    color: greenyellow;
+    cursor: pointer;
+}
+#delivery{
+    font-size: 15px;
+    color: 
+    goldenrod;
+    cursor: pointer;
+}
+#register{
+    font-size: 13px;
+    cursor: pointer;
+}
+#cart{
+    font-size: 13px;
+    cursor: pointer;
+}
+.responsiveHEader{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    box-shadow: 2px 0px 3px black;
+    transition: 0.5s;
+    background-color: rgb(76, 153, 127)
+}
+#second_head_responsive{
+    display: flex;
+     margin-left: -70px;
+}
+.siderendering{
+    position: fixed;
+    top:0px;
+    left: 0;
+    width: 0;
+    height: 100vh;
+    padding: 0;
+    z-index: 19;
+    background-color: white;
+    box-shadow: 2px 2px 10px black;
+    overflow: hidden;
+  transition: 1s;
+  font-size: 3px;
+}
+.siderendering div{
+ padding-top: 5px;
+}
+#removesidebar{
+    padding-left: 30px;
+    padding-top: 10px;
+    color: red;
+}
+#visiblesiderendering{
+    width: 120px;
+    margin: 0;
+    padding: 10px;
+    z-index: 19;
+    font-size: 13px;
+
+}
+
+.banner{
+    padding: 100px 20% 0 20%;
+}
+#baners{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+#bannerimg{
+    transition: 0.4s;
+    height:100px;    border-radius: 100px;
+
+}
+
+#bannerimg:hover{
+    height: 150px;
+    width: auto;
+    transform: translateX(-20px);
+}
+#fav{
+    color: red;
+    font-size: 15px;
+}
+#cartbannner{
+  font-size: 20px;
+  
+}
+.bannerback{
+    background: linear-gradient(to right bottom,rgb(76, 153, 127),blue);
+    height: 80vh;
+    
+}
+.sample{
+    transform: translateX(-350px);
+    opacity: 0.4;
+    transition: 1s;
+}
+#view{
+    transform: translateX(0px);
+    opacity: 1;
+}
+.notisvissible{
+    opacity: 0.3;
+}
+.isvissible{
+    opacity: 1;
+}
+.links_Route a{
+    color: goldenrod;
+    text-decoration: none;
+}
+.links_Route{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+#brandtv{
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+#brand_image{
+    padding: 0 20% 0 20%;
+    transition: 1s;
+}
+#brand_image img{
+    width: 100%;
+    height: 300px;
+    z-index: 0;
+}
+.tv{
+    background-color: rgb(171, 189, 189);
+    padding: 10px ;
+}
+#brand{
+    font-family: 'Libre Baskerville', serif;
+    opacity: 0.7;
+}
+.notvissible_brand{
+    opacity: 0.3;
+    transform: translateX(-400px);
+}
+.vissible_brand{
+    opacity: 1;
+    transform: translateX(0);
+}
+.tvBanner{
+    background-color: white;
+    width: fit-content;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 10px rgb(129, 126, 126);
+    border-radius: 10px;
+}
+#tvBanner_imagw img{
+    width:100%;
+    border-radius: 10px 10px 0px 0;
+
+}
+
+.missle_discription{
+  
+    margin:30px 10px 10px 10px ;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-flow: wrap;
+}
+#name_cost{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#heart_cart{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#upper{
+    transition: 1s;
+}
+.footer{
+    background:linear-gradient(to bottom right,black,rgb(31, 31, 54));
+    color:white;
+
+}
+#rights{
+    font-size: 13px;
+}
+#icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+#footer_2nd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart{
+    position: fixed;
+    top:7px;
+     box-shadow: 2px 2px 30px black;
+     z-index: 90;
+     width: 80%;
+     z-index: 290;
+     background-color: white;
+     margin: 50px;
+     cursor:default;
+     padding: 20px;
+   overflow-y: scroll;
+   height: 60vh;
+
+}
+
+.header_cart{
+    text-align: center;
+    font-size: 30px;
+    cursor:default;
+
+}
+#remove_Cart{
+    position: relative;
+    top:-36px;
+    left:90%;
+    color: red;
+}
+.cart_store{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#leftside_cart{
+    padding-left: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+.findus{
+    position: fixed;
+    top:7px;
+     box-shadow: 2px 2px 30px black;
+     z-index: 90;
+     width: 80%;
+     z-index: 290;
+     background:linear-gradient(rgb(207, 201, 201),rgb(57, 57, 190));
+     margin: 50px;
+     cursor:default;
+     padding: 20px;
+    height: 60vh;
+}
+#remove_find{
+    position: relative;
+    top: -10px;
+    left: 90%;
+    color: red;
+}
+#headeroffind{
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+}
+.findus a{
+    color: rgb(141, 3, 3);
+    text-decoration: none;
+    font-size: 20px;
+}
+#iconsfind{
+    margin-top: 20px;
+   
+}
+#eachiconfind{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}

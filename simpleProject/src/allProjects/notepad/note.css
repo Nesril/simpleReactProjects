@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.box{
+    background-color: rgb(218, 218, 19);
+    width: 300px;
+    min-height: 200px;
+    padding: 10px;
+    display: grid;
+    grid-row-gap: 130px;
+    margin: 15px;
+  margin-left:0 ;
+  white-space: pre-wrap;
+
+}
+.date_and_delete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notes{
+    display: flex;
+    flex-flow: wrap;
+    
+}
+.pro6{
+    margin: 18px;
+    min-height: 100vh;
+}
+.dark{
+    padding: 18px;
+    background-color: black;
+    min-height: 100vh;
+
+}
+textarea::-webkit-scrollbar {
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+#white{
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header button{
+ padding: 5px;
+ border-radius:10px ; 
+ border: none;
+ cursor: pointer;  
+}
+#search_icon{
+  position: relative;
+  top: 3px;
+  left: 4px;
+  cursor: pointer;
+  z-index: 3;
+}
+.search input{
+    position: absolute;
+    margin-left: -20px;
+    width: 80%;
+    background-color: rgb(200, 216, 236);
+    border: none;
+    padding: 5px;
+    border-radius:10px ;
+    padding-left: 25px;
+}
+.new_note{
+    background-color: rgb(102, 182, 247);
+    display: grid;
+    grid-row-gap: 00px;
+}
+.new_note textarea{
+    height:180px;
+    border: none;
+    background-color: rgb(102, 182, 247);
+}
+.footer-note{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-note button{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#delet{
+    color: red;
+    cursor: pointer;
+}

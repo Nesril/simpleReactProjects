@@ -1,0 +1,21 @@
+.bswitch{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 40px;
+    height: 20px;
+    border-radius: 50px;
+    border:1px solid black;
+    position: relative;
+    cursor: pointer;
+    z-index: 9;
+}
+.bx{
+  background-color: rgb(8, 8, 8);
+  width: 50px;
+  border-radius: 50px;
+  transition: 0.3s;
+  transition-timing-function: linear;
+  position: relative;
+  opacity: 1;
+}

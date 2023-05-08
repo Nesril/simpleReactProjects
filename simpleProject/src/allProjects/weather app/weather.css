@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+*{
+   /* font-family: 'EB Garamond', serif;*/
+    margin: 0;
+    padding: 0;
+    outline: none
+}
+/*
+::-webkit-scrollbar{
+    border-radius: 20px;
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(7, 7, 58);
+    width: 30px;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-button{
+width: 70px;
+background-color: rgb(7, 7, 58);
+}
+*/
+.weather_pro{
+    width: 100%;
+    min-height: 100vh;
+   background-image: url("clear.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   position: relative;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.weather_pro #input{
+    text-align: center;
+    padding-top:0px ;
+}
+.weather_pro #input input{
+  width: 300px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 20px;
+  border:none;
+  background: rgb(130, 130, 184);
+  margin-bottom: 30px;
+}
+::placeholder{
+    color: rgb(228, 221, 213);
+    font-family: 'EB Garamond', serif;
+}
+.weather_pro #dat{
+    padding-left: 30px;
+    display: grid;
+    grid-row-gap: 5px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.weather_pro #lower{
+opacity: 0.5;
+}
+.cou{
+    text-align: center;
+    display: grid;
+    grid-row-gap: 6px;
+    color: rgb(21, 21, 99);
+}
+#sub_country{
+    font-size: 40px;
+    font-weight: bold;
+}
+.cou a{
+text-decoration: none;
+
+}
+#condition{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+#first_con{
+    display: flex;
+    align-items: center;
+
+}
+#time{
+  position: fixed;
+  top: 0;
+  right:0;
+  font-size: 50px;
+  opacity: 0.4;
+  transform: rotateZ(90deg);
+  margin-top: 200px;
+  margin-right: -100px;
+}
+#sun{
+    color:goldenrod;
+    padding-right: 10px;
+}
+#tem{
+    font-size: 40px;
+}
+#main{
+    font-size: 20px;
+    color:rgb(32, 144, 218)
+}
+#description{
+    letter-spacing: 3px;
+    font-size: 30px;
+    opacity: 0.5;
+    color: brown;
+}
+.con{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin:0 50px 0 50px;
+    text-align: center;
+    transition: 1s;
+    background:linear-gradient(to top left, rgb(79, 205, 255),rgb(0, 0, 0),rgb(79, 205, 255));
+}
+#con{
+    background:linear-gradient(to top left, rgb(79, 205, 255),rgb(0, 0, 0));
+     padding: 10px;
+     border-radius: 10px;
+     color: white;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);   
+    transition: 1s;
+}
+#temp{
+ font-family: 'EB Garamond', serif;
+font-size: 15px;
+color: rgb(196, 150, 240);
+transition: 0.3s;
+}
+
+#middle{
+    margin-top: -10px;
+    display:flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+   align-items: center;
+}
+.altitude{
+    margin-top: 30px ;
+    width: 40%;
+    background-color: white;
+    padding: 10px;
+    margin-right: 200px;
+
+}
+#see_level{
+    box-shadow: 2px 2px 10px rgb(209, 196, 196);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 246, 242);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 1s;
+}
+#see_level:hover{
+    background-color: blueviolet;
+    transform: translateX(20px);
+}
+#lat_tex{
+    color:rgb(50, 99, 205);
+}
+#lat_no{
+    color: brown;
+}
+#srch{
+    position: relative;
+    top: 8px;
+    left: -25px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: blue;
+}
+#srch:hover{
+    color: black;
+}
